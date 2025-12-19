@@ -17,4 +17,4 @@ This website is built using the following technologies :
 ![CSS#](<Screenshot (159).png>)
 -JavaScript :  A JavaScript function is a reusable block of code that performs a specific task or calculates a value. Functions are executed when they are called or invoked, enabling code organization and efficiency by avoiding repetition. 
 ![alt text](<Screenshot (160).png>)
-- Deployment : This website has been deployed Github and also can be visited through this link :
+- Deployment : This website has been deployed Github and also can be visited through this link : https://github.com/Revou-FSSE-Oct25/milestone-2-DanuRenmiWijaya
