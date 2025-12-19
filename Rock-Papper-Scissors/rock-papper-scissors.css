@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-image: linear-gradient(108.7deg, rgba(221,22,224,1) 11%, rgba(111,22,190,1) 88.2%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container2 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    position: fixed;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 0 4rem 0 4rem;
+    margin: 6rem 0 0 25rem;
+}
+
+.container2 h1 {
+    text-align: center;
+    font-size: 47px;
+    margin-bottom: 10px;
+    color: #f019ec;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.choices button {
+    font-size: 3rem;
+    min-width: 5rem;
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+    background-color: #dd16e0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.choices button:hover {
+    background-color: #b014b8;
+    transform: scale(1.1);
+}
+
+#playerDisplay, #computerDisplay{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #6f16be;
+}
+#resultDisplay {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: #f019ec;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #6f16be;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}   
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    color: #dd16e0;
+}
