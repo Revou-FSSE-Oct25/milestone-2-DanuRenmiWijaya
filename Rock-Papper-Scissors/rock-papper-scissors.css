@@ -103,3 +103,13 @@ a {
 .nav-link:hover {
     color: #dd16e0;
 }
+
+#resultDisplay.resultStyleWin {
+    color: green;
+    background-color: white;
+}
+
+#resultDisplay.resultStyleLose {
+    color: red !important;
+    background-color: white !important;
+} 
