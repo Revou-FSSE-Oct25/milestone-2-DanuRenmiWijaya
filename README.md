@@ -13,9 +13,12 @@ The game determines the winner based on classic rules.
 This website is built using the following technologies :
 - HTML5 : to structure the backbone of the website. I've used semantic element to improve accesbility and SEO
 ![HTML5](<./asset/screenshot-html.png>)
+
 - CSS3 : styling HTML structure, also use flex, transition and responsive web design
-![CSS#](<Screenshot (159).png>)
+![CSS#](<./asset/screenshot-css.png>)
+
 -JavaScript :  A JavaScript function is a reusable block of code that performs a specific task or calculates a value. Functions are executed when they are called or invoked, enabling code organization and efficiency by avoiding repetition. 
-![alt text](<Screenshot (160).png>)
-- Deployment : This website has been deployed Github and also can be visited through this link : https://github.com/Revou-FSSE-Oct25/milestone-2-DanuRenmiWijaya
+![JavaScript](<./asset/screenshot-js.png>)
+
+- Deployment : This website has been deployed Github and also can be visited through this link : https://module3-javascriptandtypescript-danu.netlify.app/
 
