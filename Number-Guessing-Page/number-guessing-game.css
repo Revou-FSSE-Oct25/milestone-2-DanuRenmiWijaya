@@ -12,7 +12,7 @@ body {
     position: fixed;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
-    padding: 0 4rem 0 4rem;
+    padding: 1.5rem 4rem 0 4rem;
     margin: 6rem 0 0 34rem;
 }
 
@@ -55,12 +55,15 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
 button:hover {
     background-color: #b014b8;
     transform: scale(1.1);
 }
-#result {
+#result, #attempts {
     font-size: 20px;
     margin-top: 20px;
     font-weight: bold;
