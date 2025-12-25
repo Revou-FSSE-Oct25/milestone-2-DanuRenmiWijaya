@@ -111,17 +111,25 @@ a {
     color: #dd16e0;
 }
 
-/* .hamburger {
-    display: none;
-    cursor: pointer;
+@media (max-width: 768px) {
+    
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    position: fixed;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 1.5rem 5rem 0 4rem;
+    margin: 6rem 0 0 0;
+}.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
+    font-size: 0.6rem;
+    font-weight: bolder;
 }
-
-.bar{
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    background-color: #fff;
-} */
+}
