@@ -113,3 +113,45 @@ a {
     color: red !important;
     background-color: white !important;
 } 
+@media (max-width: 768px) {
+    
+.container2 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    position: fixed;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 1.5rem 5rem 0 4rem;
+    margin: 6rem 0 0 0;
+}.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
+    font-size: 0.6rem;
+    font-weight: bolder;
+}.container2 h1 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #f019ec;
+}.choices button {
+    font-size: 1rem;
+    min-width: 5rem;
+    margin: 0 0;
+    padding: 1rem 2rem;
+    background-color: #dd16e0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.choices button:hover {
+    background-color: #b014b8;
+    transform: scale(1.1);
+}
+}
